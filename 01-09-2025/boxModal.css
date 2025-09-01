@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding-left: 240px;
+    width;
+}
+header{
+    margin: 0px;
+    background-image: url("https://www.londonkensingtonguide.com/wp-content/uploads/2022/08/Best-Cafes-In-Covent-Garden.jpg");
+    background-size: cover;
+    min-height: 250px;
+    background-position: center;
+    border-style: groove;
+}
+header > h1{
+    text-align: center;
+    color:orangered;
+    padding: 60px;
+}
+
+#nav{
+    width: 200px;
+    margin: 0px;
+    padding: 20px;
+    background-color:black;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+#navlinks a {
+    border-radius: 20px;
+    display: block;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+#navlinks a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.mainbox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+
+}
+
+.box{
+    /* margin: 20px; */
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    padding: 10px; 
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"); 
+    background-size: cover;
+    color: white; 
+}
+.box > h2{
+    padding-top: 160px;
+}
+
+.box1{
+    /* margin: 20px; */
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/220px-A_small_cup_of_coffee.JPG");
+    background-size: cover;
+    color: white; 
+}
+.box1 > h2{
+    padding-top: 160px;
+}
